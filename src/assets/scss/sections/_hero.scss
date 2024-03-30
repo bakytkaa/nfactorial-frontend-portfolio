@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #3e1b6b;
+
+  width: 100%;
+  height: 45rem;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+
+  padding: 5rem 7.25rem 9.5rem 7.25rem;
+
+  overflow: hidden;
+
+  .text {
+    margin-right: 3rem;
+
+    h1 {
+      color: #fff;
+      font-size: 1.75rem;
+      font-weight: 600;
+
+      margin-bottom: 3rem;
+
+      font-family: "Montserrat", sans-serif;
+
+      .hello {
+        font-size: 4.5rem;
+        font-weight: 900;
+      }
+    }
+
+    a {
+      font-size: 1.25rem;
+      font-weight: 700;
+      background: #f8ede1;
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer;
+      padding: 0.5rem 2.5rem;
+    }
+  }
+
+  img {
+    width: 25rem;
+    height: 25rem;
+    object-fit: contain;
+    object-position: left center;
+    scale: 2;
+    transform: translateX(3rem);
+  }
+}

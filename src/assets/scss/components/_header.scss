@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem 2rem;
+
+  .title {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .navigations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 1.5rem;
+
+    a {
+      font-size: 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

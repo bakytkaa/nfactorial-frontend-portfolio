@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f5f5f5;
+  color: #212427;
+
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.page {
+  background: #f8ede1;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@import "./components/header";
+@import "./components/footer";
+
+@import "./sections/hero";
+@import "./sections/about";
+@import "./sections/experiences";
+@import "./sections/projects";

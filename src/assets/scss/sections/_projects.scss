@@ -1,0 +1,38 @@
+.projects {
+  color: #fff;
+  background: #3e1b6b;
+
+  padding: 5rem;
+
+  .title {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .items {
+    .project-item {
+      h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-bottom: 3rem;
+      }
+
+      .images {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+          max-height: 35rem;
+        }
+      }
+    }
+  }
+}

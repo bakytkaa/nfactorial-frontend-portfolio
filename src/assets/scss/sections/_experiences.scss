@@ -1,0 +1,24 @@
+.experiences {
+  padding: 5rem;
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  .items {
+    .experience-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      border-bottom: 1px solid #949494;
+
+      padding: 1rem 0;
+
+      p {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
